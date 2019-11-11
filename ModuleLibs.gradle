@@ -18,6 +18,7 @@ ext{
     ]
 
     moudle_version = [
-            network     : "1.0.0.0-SNAPSHOT"
+            network_snapshot     : "1.0.0.0-SNAPSHOT",
+            network              : "1.0.0.0"
     ]
 }

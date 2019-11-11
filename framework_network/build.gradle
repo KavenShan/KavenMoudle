@@ -60,7 +60,13 @@ uploadArchives {
                 }
             }
 
+            //maven快照仓库
             snapshotRepository(url: 'http://123.206.226.179:8081/repository/Maven_Shan_Snapshot/') {
+                authentication(userName: 'Shan', password: 'Shan19930513!') // maven授权信息
+            }
+
+            //maven正式仓库
+            repository(url: 'http://123.206.226.179:8081/repository/Maven_Shan_Release/') {
                 authentication(userName: 'Shan', password: 'Shan19930513!') // maven授权信息
             }
         }
