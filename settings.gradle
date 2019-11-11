@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':framework_network'
 rootProject.name='KavenMoudle'
