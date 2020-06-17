@@ -17,7 +17,7 @@ android {
         config {
             keyAlias 'KavenMoudle'
             keyPassword 'KavenShan'
-            storeFile file('/KavenMoudleKeyStore.jks')
+            storeFile file('KavenMoudleKeyStore.jks')
             storePassword 'KavenShan'
         }
     }
